@@ -1,2 +1,2 @@
 # my-python
-It is just for a test.
+這是個有關於程式設計概論的課後練習，抑或是自我學習使用的儲存庫！
