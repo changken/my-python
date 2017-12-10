@@ -6,6 +6,7 @@ os.system('cls')
 K = 200
 X = np.random.randint(0, 101, size=(K, 5))
 Objective = [0] * K
+for k in range(K):
     while (X[k][0] - X[k][1] < 23) or (X[k][1] - 2 * X[k][2] < 25) or (X[k][2] + X[k][3] < 26) or (X[k][3] - X[k][4] < 12):
         X[k][0] = np.random.randint(0,101)
         X[k][1] = np.random.randint(0,101)
